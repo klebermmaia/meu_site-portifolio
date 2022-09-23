@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="---AQUI A DESCRIÇÃO DO SITE---">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Titulo</title>
+</head>
+
+<body>
+  <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top py-4 shadow-sm ">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/caravan.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Locais</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Planos</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a href="local.html" class="dropdown-item">California</a></li>
+              <li><a href="local.html" class="dropdown-item">Lisboa</a></li>
+              <li><a href="local.html" class="dropdown-item">Paris</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contato.html" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="inscricao.html" class="btn btn-outline-primary">Inscreva-se</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="header" class="container-fluid">
+    <div class="row bg-dark text-white">
+      <div class="col-lg-7 p-0"><!--Carrosel-->
+        <div id="carouselCitys" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCitys" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselCitys" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselCitys" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/california.jpg" class="d-block w-100" alt="California">
+              <div class="carousel-caption">
+                <h3 class="display-2 negrito">California</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/dublin.jpg" class="d-block w-100" alt="Dublin">
+              <div class="carousel-caption">
+                <h3 class="display-2 negrito">Dublin</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/paris.jpg" class="d-block w-100" alt="Paris">
+              <div class="carousel-caption">
+                <h3 class="display-2 negrito">Paris</h3>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCitys" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCitys" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-5 p-4 align-self-center">
+        <h1 class="display-4">Realize a viagem do seu sonho</h1>
+        <p class="lead">O melhor local oara viajar é com a Caravan, mais de 50.000 excursões realizadas.</p>
+        <form action="">
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            <span class="input-group-btn input-group-lg">
+              <button class="btn btn-primary btn-radius" type="button">Inscreva-se</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <div class="my-5">
+        <span class="h6 d-block">TUDO DE MELHOR PARA VOCÊ</span>
+        <h2 class="text-primary display-4">Aproveite as Vantagens</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/passaporte.svg" alt="">
+          </div>
+          <h3>Documentos</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/passagens.svg" alt="">
+          </div>
+          <h3>Passagens</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/translado.svg" alt="">
+          </div>
+          <h3>translado</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/praias.svg" alt="">
+          </div>
+          <h3>Praias</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/bagagens.svg" alt="">
+          </div>
+          <h3>Bagagens</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="heigth-100 d-flex justify-content-center">
+            <img src="img/icones/turismo.svg" alt="">
+          </div>
+          <h3>Turismo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique hic commodi eaque.</p>
+        </div>
+      </div>
+      <a href="pla.html" class="btn btn-primary btn-lg mt-4">Comprar plano</a>
+    </div>
+  </section>
+  <section class="bg-blockquote p-md-5">
+    <blockquote class="blockquote text-center p-md-5 p-3">
+      <em class="display-4 text-white">"A felicidade não está na estrada que leva a algum lugar. A felicidade é a própria estrada."
+      </em>
+    </blockquote>
+    <figcaption class="blockquote-footer text-center text-white">
+      <cite>Bob Dylan</cite>
+    </figcaption>
+  </section>
+
+  <section class="container">
+    <div class="my-5 text-center">
+      <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
+      <h2 class="text-primary display-4">Perguntas Frequentes</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-5" id="perguntasFrenquentes">
+        <div class="pergunta">
+          <a class="lead text-decoration-none" data-bs-toggle="collapse" href="#pergunta1" role="button" aria-expanded="false" aria-controls="pergunta">
+            → É possível cancelar a viagem?
+          </a>
+          <div class="collapse show" id="pergunta1" data-bs-parent="#perguntasFrenquentes">
+              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+          </div>
+        </div>
+        <div class="dropdown-divider mt-3"></div>
+
+        <div class="pergunta">
+          <a class="lead text-decoration-none" data-bs-toggle="collapse" href="#pergunta2" role="button" aria-expanded="false" aria-controls="pergunta">
+            → Qual a garantia que tenho se perder o voo?
+          </a>
+          <div class="collapse" id="pergunta2" data-bs-parent="#perguntasFrenquentes">
+              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+          </div>
+        </div>
+        <div class="dropdown-divider mt-3"></div>
+
+        <div class="pergunta">
+          <a class="lead text-decoration-none" data-bs-toggle="collapse" href="#pergunta3" role="button" aria-expanded="false" aria-controls="pergunta">
+            → Qual a principal forma de viagem?
+          </a>
+          <div class="collapse" id="pergunta3" data-bs-parent="#perguntasFrenquentes">
+              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+          </div>
+        </div>
+        <div class="dropdown-divider mt-3"></div>
+
+        <div class="pergunta">
+          <a class="lead text-decoration-none" data-bs-toggle="collapse" href="#pergunta4" role="button" aria-expanded="false" aria-controls="pergunta">
+            → Qual o melhor destino de viagem?
+          </a>
+          <div class="collapse" id="pergunta4" data-bs-parent="#perguntasFrenquentes">
+              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+          </div>
+        </div>
+        <div class="dropdown-divider mt-3"></div>
+
+        <div class="pergunta">
+          <a class="lead text-decoration-none" data-bs-toggle="collapse" href="#pergunta5" role="button" aria-expanded="false" aria-controls="pergunta">
+            → Vocês dão descontos para grupos grandes?
+          </a>
+          <div class="collapse" id="pergunta5" data-bs-parent="#perguntasFrenquentes">
+              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+          </div>
+        </div>
+        <div class="dropdown-divider mt-3"></div>
+
+      </div>
+    </div>
+    
+    <div class="text-center mt-2">
+      <p class="small text-uppercase mb-1">Fale conosco para mais dúvidas</p>
+      <a href="contato.html" class="btn btn-primary btn-lg">Entre em contato</a>
+    </div>
+  </section>
+ 
+  <footer id="footer" class="footer">
+
+  </footer>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

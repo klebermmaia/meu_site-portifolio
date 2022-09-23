@@ -1,0 +1,145 @@
+/* Estilo para Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Qualidade Homer */
+  .qualidade::after {
+    left: 68px;
+  }
+  .qualidade_lista li {
+    padding: 0 10px;
+  }
+  /* Footer */
+  .footer_redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 8px;
+    margin-right: 0px;
+  }
+  /* Pagina Produtos */
+  .produto-item h2{
+    top: -155px;
+  }
+  .produto-icone img{
+    padding: 41px 0;
+  }
+  .produto-info p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+  .produto-info ul li{
+    width: 181px;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 12px;
+  }
+}
+
+
+/* Estilo para Smartphone */
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+  .header img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .header_menu {
+    text-align: center;
+  }
+  .header_menu ul li {
+    margin: 3px;
+  }
+  .header_menu ul li a {
+    display: block;
+    width: 120px;
+    border: 4px solid black;
+    float: left;
+  }
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+  .header_menu .menu-ativo {
+    border-color: #fff;
+  }
+  /* Introdução */
+  .introducao {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  .introducao h1 {
+    font-size: 2.6em;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.344);
+  }
+  .introducao-interna {
+    margin-top: 0;
+  }
+  /* Call */
+  .call {
+    padding-top: 10px;
+  }
+  .call p {
+    margin-bottom: 20px;
+  }
+  /* Qualidade */
+  .qualidade{
+    padding: 30px 0;
+  }
+  /* Qualidade Homer */
+  .qualidade::after {
+    display: none;
+  }
+  /* Sobre */
+  .missao-sobre p{
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .missao-sobre ul li{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .missao-sobre .foto-equipe{
+    padding-top: 20px;
+  }
+  /* Pagina Produtos */
+  .produto-item h2{
+    top: -110px;
+    margin-bottom: -68px;
+  }
+  .produto-icone img{
+    padding: 41px 0;
+  }
+  .produto-info p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+  .produto-info ul li{
+    width: 149px;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 12px;
+  }
+  .form{
+    padding-right: 0;
+  }
+  .orcamento-dados ul{
+    padding-right: 0;
+  }
+  /* Pagina Portfólio */
+  .footer_historia{
+    padding-right: 0;
+  }
+  /* Pagina Contato */
+  .contato{
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  .contato-form{
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+}

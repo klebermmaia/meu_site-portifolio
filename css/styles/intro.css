@@ -1,0 +1,32 @@
+
+.intro{
+  position: relative;
+  padding: 0 20px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+.intro img{
+  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+@media (max-width: 750px){
+  .intro{
+    grid-template-rows: repeat(3, 1fr) .5fr 1fr 1fr;
+  }
+}
+@media (max-width: 644px){
+  .intro{
+    padding: 0;
+  }
+  .intro img{
+    height: 511px;
+    object-fit: cover;
+    object-position: top center;
+  }
+}
+@media (max-width: 550px){
+  .intro{
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

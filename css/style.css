@@ -1,0 +1,205 @@
+@import url(styles/global.css);
+@import url(styles/tipografia.css);
+
+@import url(styles/intro.css);
+@import url(styles/intro_orbita.css);
+@import url(styles/projetos_orbita.css);
+
+@import url(styles/projetos.css);
+
+@import url(styles/skills.css);
+
+/* ORBITA */
+@media (max-width: 500px) {
+  .orb-lg {
+    min-width: 1000px;
+    height: 1000px;
+  }
+
+  .orb-md {
+    min-width: 700px;
+    height: 700px;
+  }
+
+  .orb-sm {
+    min-width: 400px;
+    height: 400px;
+  }
+
+  .orb-lg>.astro:nth-child(1) {
+    top: -11px;
+    left: 385px;
+  }
+
+  .orb-lg>.astro:nth-child(2) {
+    left: 51px;
+    bottom: 218px;
+  }
+
+  .orb-lg>.astro:nth-child(3) {
+    top: 532px;
+    right: -18px;
+  }
+
+  .orb-lg>.astro:nth-child(4) {
+    right: 364px;
+    bottom: -6px;
+  }
+
+  .orb-md>.astro:nth-child(1) {
+    top: -17px;
+    left: 385px;
+  }
+
+  .orb-md>.astro:nth-child(2) {
+    left: -2px;
+    bottom: 218px;
+  }
+
+  .orb-md>.astro:nth-child(3) {
+    top: 532px;
+    right: 45px;
+  }
+
+  .orb-sm>.astro:nth-child(1) {
+    top: 4px;
+    right: 83px;
+  }
+
+  .orb-sm>.astro:nth-child(2) {
+    left: 287px;
+    bottom: 13px;
+  }
+}
+@media (max-width: 425px) {
+  .orb-lg {
+    min-width: 700px;
+    height: 700px;
+  }
+
+  .orb-md {
+    min-width: 500px;
+    height: 500px;
+  }
+
+  .orb-sm {
+    min-width: 300px;
+    height: 300px;
+  }
+
+  .astro {
+    width: 35px;
+    height: 35px;
+  }
+
+  .orb-lg>.astro:nth-child(1) {
+    top: -11px;
+    left: 385px;
+  }
+
+  .orb-lg>.astro:nth-child(2) {
+    left: 0px;
+    bottom: 218px;
+  }
+
+  .orb-lg>.astro:nth-child(3) {
+    top: 464px;
+    right: 7px;
+  }
+
+  .orb-lg>.astro:nth-child(4) {
+    right: 364px;
+    bottom: -17px;
+  }
+
+  .orb-md>.astro:nth-child(1) {
+    top: 35px;
+    left: 385px;
+  }
+
+  .orb-md>.astro:nth-child(2) {
+    left: -17px;
+    bottom: 218px;
+  }
+
+  .orb-md>.astro:nth-child(3) {
+    top: 397px;
+    right: 45px;
+  }
+
+  .orb-sm>.astro:nth-child(1) {
+    top: -8px;
+    right: 83px;
+  }
+
+  .orb-sm>.astro:nth-child(2) {
+    left: 223px;
+    bottom: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .orb-lg {
+    min-width: 530px;
+    height: 530px;
+  }
+
+  .orb-md {
+    min-width: 330px;
+    height: 330px;
+  }
+
+  .orb-sm {
+    min-width: 130px;
+    height: 130px;
+  }
+
+  .astro {
+    width: 25px;
+    height: 25px;
+  }
+
+  .orb-lg>.astro:nth-child(1) {
+    top: 23px;
+    left: 385px;
+  }
+
+  .orb-lg>.astro:nth-child(2) {
+    left: -11px;
+    bottom: 218px;
+  }
+
+  .orb-lg>.astro:nth-child(3) {
+    top: 464px;
+    right: 93px;
+  }
+
+  .orb-lg>.astro:nth-child(4) {
+    right: 364px;
+    bottom: 13px;
+  }
+
+  .orb-md>.astro:nth-child(1) {
+    top: 11px;
+    left: 235px;
+  }
+
+  .orb-md>.astro:nth-child(2) {
+    left: 3px;
+    bottom: 218px;
+  }
+
+  .orb-md>.astro:nth-child(3) {
+    top: 276px;
+    right: 45px;
+  }
+
+  .orb-sm>.astro:nth-child(1) {
+    top: -8px;
+    right: 70px;
+  }
+
+  .orb-sm>.astro:nth-child(2) {
+    left: 103px;
+    bottom: 13px;
+  }
+}

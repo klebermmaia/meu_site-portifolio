@@ -1,0 +1,90 @@
+.font-ubu{
+  font-family: 'Ubuntu';
+}
+.font-OS{
+  font-family: 'Open Sans';
+}
+.title-n2{
+  font-size: 2.5rem;
+  margin: 0;
+}
+.title-n2 span::before, 
+.title-n2 span::after{
+  content: '';
+  display: block;
+  width: auto;
+  height: 1px;
+  background-color: #4B442B;
+  position: relative;
+}
+.title-n2 span::after{
+  width: calc(100% - 10%);
+  top: 7px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.title-n3{
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+.font-OP{
+  font-family: 'Open Sans';
+}
+.font-N{
+  font-family: 'Nunito';
+}
+.font-limit{
+  max-width: 90ch;
+}
+.txt-intro{
+  grid-column: 1/-1;
+  grid-row: 5;
+}
+
+@media (max-width: 1200px){
+  .font-limit{
+    max-width: 60ch;
+  }
+}
+@media (max-width: 950px){
+  .txt-intro{
+    font-size: 1rem;
+  }
+  .font-limit{
+    max-width: 70ch;
+  }
+}
+@media (max-width: 750px){
+  .font-limit{
+    max-width: 60ch;
+  }
+  .txt-intro{
+    grid-row: 5;
+    padding: 0 15px;
+  }
+}
+@media (max-width: 550px){
+  .font-limit{
+    max-width: 60ch;
+  }
+  .intro{
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .txt-intro{
+    grid-row: 3;
+  }
+  .title-n2{
+    font-size: 2.25rem;
+  }
+  .title-n2{
+    font-size: 1.5rem;
+  }
+  .title-n2 span::after{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 425px){
+  .txt-intro{
+    font-size: .875rem;
+  }
+}
