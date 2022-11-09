@@ -1,19 +1,23 @@
+
 #projetos{
   padding: 40px 0;
 }
 .warpper-projetos{
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 40px 0;
-  position: relative;
+  /* position: relative; */
   width: 100%;
 }
 .projetos{
-  display: flex;
-  gap: 90px;
-  align-items: center;
-  /* justify-content: center; */
-  transform: translateX();
+  margin: 0;
 }
+/* .projetos{
+  display: flex;
+  gap: 90px; 
+  align-items: center;
+  justify-content: center; 
+  transform: translateX();
+} */
 .item{
   position: relative;
   flex-shrink: 0;
@@ -23,12 +27,6 @@
   width: 255px;
   height: 255px;
   border-radius: 50%;
-  opacity: .5;
-}
-.item.active{
-  width: 300px;
-  height: 300px;
-  opacity: 1;
 }
 .item img{
   z-index: 2;

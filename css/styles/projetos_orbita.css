@@ -2,7 +2,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  transition: all .5s;
+  /* transition: all .5s; */
   z-index: -1;
   animation-duration: 10s;
   opacity: 0;
@@ -16,30 +16,30 @@
   align-items: center;
 }
 
-.item:hover .orb-proj-item {
+.item.swiper-slide-active .orb-proj-item {
   width: 300px;
   height: 300px;
-}
-.item.active:hover .orb-proj-item {
-  width: 350px;
-  height: 350px;
   opacity: 1;
 }
+/* .item:hover .orb-proj-item {
+  width: 350px;
+  height: 350px;
+} */
 
-.item:hover .astro-proj-item:nth-child(1){
+.item.swiper-slide-active .astro-proj-item:nth-child(1){
   left: 3em;
   top: 1em;
 }
- .item:hover .astro-proj-item:nth-child(2) {
+ .item.swiper-slide-active .astro-proj-item:nth-child(2) {
   right: 3em;
   bottom: 1em;
 }
 
-.item.active:hover .astro-proj-item:nth-child(1){
+.item.active.swiper-slide-active .astro-proj-item:nth-child(1){
   left: 4em;
   top: 1em;
 }
- .item.active:hover .astro-proj-item:nth-child(2) {
+ .item.active.swiper-slide-active .astro-proj-item:nth-child(2) {
   right: 4em;
   bottom: 1em;
 }

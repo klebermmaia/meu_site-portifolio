@@ -8,11 +8,14 @@
   <meta name="description" content="---AQUI A DESCRIÇÃO DO SITE---">
   <!-- Estilos -->
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Merriweather:wght@300&family=Nunito&family=Open+Sans:wght@400;500;600&family=Petrona&family=Ubuntu:wght@400;500&family=Poppins&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Merriweather:wght@300&family=Nunito&family=Open+Sans:wght@400;500;600&family=Petrona&family=Ubuntu:wght@400;500&family=Poppins&display=swap"
+    rel="stylesheet">
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Kleber m. júnior</title>
@@ -24,7 +27,8 @@
       <a class="navbar-brand" href="index.html">
         <img src="imagens/logo.svg" alt="Logo">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -33,7 +37,8 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Projetos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -100,30 +105,31 @@
   <!--Projetos-->
   <section class="container-fluid grid-just-center" id="projetos">
     <h2 class="title-n2 text-white text-center font-ubu py-3">Projetos <span></span></h2>
-    <div class="warpper-projetos">
-      <ul class="projetos container-fluid">
-        <li class="item active">
+
+    <div class="warpper-projetos swiper">
+      <ul class="projetos container swiper-wrapper">
+        <li class="item swiper-slide">
           <img src="imagens/projetos/animaisFantasticos.svg" alt="Logo - Animais Fantásticos">
           <span class="orb orb-proj-item">
             <span class="astro astro-proj-item"></span>
             <span class="astro astro-proj-item"></span>
           </span>
         </li>
-        <li class="item">
+        <li class="item swiper-slide">
           <img src="imagens/projetos/bikcraft.svg" alt="Logo - Animais Fantásticos">
           <span class="orb orb-proj-item">
             <span class="astro astro-proj-item"></span>
             <span class="astro astro-proj-item"></span>
           </span>
         </li>
-        <li class="item">
+        <li class="item swiper-slide">
           <img src="imagens/projetos/caravan.svg" alt="Logo - Animais Fantásticos">
           <span class="orb orb-proj-item">
             <span class="astro astro-proj-item"></span>
             <span class="astro astro-proj-item"></span>
           </span>
         </li>
-        <li class="item">
+        <li class="item swiper-slide">
           <img src="imagens/projetos/move&life.svg" alt="Logo - Animais Fantásticos">
           <span class="orb orb-proj-item">
             <span class="astro astro-proj-item"></span>
@@ -131,8 +137,6 @@
           </span>
         </li>
       </ul>
-      <button class="btn btn-slide previous" data-slide="previous"></button>
-      <button class="btn btn-slide next" data-slide="next"></button>
     </div>
   </section>
   <!--Skills-->
@@ -165,7 +169,29 @@
   </footer> -->
   <script src="js/bootstrap/popper.min.js"></script>
   <script src="js/bootstrap/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="script.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: false,
+      autoplay: {
+        delay: 5000,
+      },
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -150,
+        depth: 120,
+        slideShadows: false,
+      },
+      mousewheel: {
+        invert: false,
+      },
+    })
+  </script>
 </body>
 
 </html>
