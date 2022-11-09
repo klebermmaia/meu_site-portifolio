@@ -6,11 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="---AQUI A DESCRIÇÃO DO SITE---">
+  <!-- Estilos -->
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Merriweather:wght@300&family=Nunito&family=Open+Sans:wght@400;500;600&family=Petrona&family=Ubuntu:wght@400;500&family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Kleber m. júnior</title>
 </head>
 
@@ -96,42 +100,39 @@
   <!--Projetos-->
   <section class="container-fluid grid-just-center" id="projetos">
     <h2 class="title-n2 text-white text-center font-ubu py-3">Projetos <span></span></h2>
-    <div class="projetos container">
-      <div class="item">
-        <img src="imagens/projetos/animaisFantasticos.svg" alt="Logo - Animais Fantásticos">
-        <span class="orb orb-proj-item">
-          <span class="astro astro-proj-item"></span>
-          <span class="astro astro-proj-item"></span>
-        </span>
-      </div>
-      <div class="item">
-        <img src="imagens/projetos/bikcraft.svg" alt="Logo - Animais Fantásticos">
-        <span class="orb orb-proj-item">
-          <span class="astro astro-proj-item"></span>
-          <span class="astro astro-proj-item"></span>
-        </span>
-      </div>
-      <div class="item">
-        <img src="imagens/projetos/caravan.svg" alt="Logo - Animais Fantásticos">
-        <span class="orb orb-proj-item">
-          <span class="astro astro-proj-item"></span>
-          <span class="astro astro-proj-item"></span>
-        </span>
-      </div>
-      <div class="item">
-        <img src="imagens/projetos/move&life.svg" alt="Logo - Animais Fantásticos">
-        <span class="orb orb-proj-item">
-          <span class="astro astro-proj-item"></span>
-          <span class="astro astro-proj-item"></span>
-        </span>
-      </div>
-      <div class="item">
-        <span>Outros<br>Projetos</span>
-        <span class="orb orb-proj-item">
-          <span class="astro astro-proj-item"></span>
-          <span class="astro astro-proj-item"></span>
-        </span>
-      </div>
+    <div class="warpper-projetos">
+      <ul class="projetos container-fluid">
+        <li class="item active">
+          <img src="imagens/projetos/animaisFantasticos.svg" alt="Logo - Animais Fantásticos">
+          <span class="orb orb-proj-item">
+            <span class="astro astro-proj-item"></span>
+            <span class="astro astro-proj-item"></span>
+          </span>
+        </li>
+        <li class="item">
+          <img src="imagens/projetos/bikcraft.svg" alt="Logo - Animais Fantásticos">
+          <span class="orb orb-proj-item">
+            <span class="astro astro-proj-item"></span>
+            <span class="astro astro-proj-item"></span>
+          </span>
+        </li>
+        <li class="item">
+          <img src="imagens/projetos/caravan.svg" alt="Logo - Animais Fantásticos">
+          <span class="orb orb-proj-item">
+            <span class="astro astro-proj-item"></span>
+            <span class="astro astro-proj-item"></span>
+          </span>
+        </li>
+        <li class="item">
+          <img src="imagens/projetos/move&life.svg" alt="Logo - Animais Fantásticos">
+          <span class="orb orb-proj-item">
+            <span class="astro astro-proj-item"></span>
+            <span class="astro astro-proj-item"></span>
+          </span>
+        </li>
+      </ul>
+      <button class="btn btn-slide previous" data-slide="previous"></button>
+      <button class="btn btn-slide next" data-slide="next"></button>
     </div>
   </section>
   <!--Skills-->
@@ -164,7 +165,7 @@
   </footer> -->
   <script src="js/bootstrap/popper.min.js"></script>
   <script src="js/bootstrap/bootstrap.js"></script>
-  <script src="js/script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 
 </html>

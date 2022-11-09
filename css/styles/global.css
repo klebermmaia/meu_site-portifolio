@@ -15,6 +15,9 @@ body::before{
   background: url(estrelas.svg);
   z-index: -9;
 }
+button:focus{
+  box-shadow: none !important;
+}
 ul, li, ol{
   margin: 0;
   padding: 0;

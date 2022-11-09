@@ -1,13 +1,13 @@
-@import url(styles/global.css);
-@import url(styles/tipografia.css);
+@import url(css/styles/global.css);
+@import url(css/styles/tipografia.css);
 
-@import url(styles/intro.css);
-@import url(styles/intro_orbita.css);
-@import url(styles/projetos_orbita.css);
+@import url(css/styles/intro.css);
+@import url(css/styles/intro_orbita.css);
+@import url(css/styles/projetos_orbita.css);
 
-@import url(styles/projetos.css);
+@import url(css/styles/projetos.css);
 
-@import url(styles/skills.css);
+@import url(css/styles/skills.css);
 
 /* ORBITA */
 @media (max-width: 500px) {
