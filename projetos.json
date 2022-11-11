@@ -1,0 +1,22 @@
+[
+  {
+    "src":"imagens/projetos/animaisFantasticos.svg",
+    "alt": "Logo1 do projeto Animais Fantasticos.",
+    "cor": "#FFF8EF"
+  },
+  {
+    "src":"imagens/projetos/bikcraft.svg",
+    "alt": "Logo2 do projeto Bikcraft.",
+    "cor": "#FEC63E"
+  },
+  {
+    "src":"imagens/projetos/caravan.svg",
+    "alt": "Logo3 do projeto Caravan.",
+    "cor": "#FFFFFF"
+  },
+  {
+    "src":"imagens/projetos/move&life.svg",
+    "alt": "Logo4 do projeto Move & Life.",
+    "cor": "#000000"
+  }
+]

@@ -1,3 +1,5 @@
-import initSlidedProjects from './js/modules/slide-projects.js'
+import initSettingsSwiper from './js/modules/settings-swiper.js'
+import initSlidedDetails from './js/modules/slide-details.js'
 
-initSlidedProjects();
+initSettingsSwiper();
+initSlidedDetails();
