@@ -2,11 +2,7 @@ export default async function initSlidedDetails() {
   const boxPrejetos = document.querySelector('.projetos');
   const dadosProjetos = await fetch('../../projetos.json')
   const projetosJSON = await dadosProjetos.json();
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> f3dde9de7723a731d7582e7704d1e4550c3b568c
   for (let i = 0; i < projetosJSON.length; i++) {
     const newLi = document.createElement('li');
     const newImg = document.createElement('img');
@@ -31,7 +27,6 @@ export default async function initSlidedDetails() {
 
   const itens = document.querySelectorAll('.item');
   const usedTech = document.querySelector('.used-tech');
-<<<<<<< HEAD
 
   function handleMutationEl(mutation) {
     const list = Array.from(mutation[0].target.childNodes)
@@ -51,14 +46,4 @@ export default async function initSlidedDetails() {
 
   const observador = new MutationObserver(handleMutationEl);
   observador.observe(boxPrejetos, { attributes: true });
-=======
-  setInterval(() => {
-    itens.forEach(i=>{
-      if(i.classList.contains('swiper-slide-active')){
-        console.log('ok')
-        usedTech.style.backgroundColor = '#ffffff'
-      }
-    })
-  }, 1000);
->>>>>>> f3dde9de7723a731d7582e7704d1e4550c3b568c
 }
