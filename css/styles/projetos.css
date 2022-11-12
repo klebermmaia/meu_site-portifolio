@@ -1,11 +1,5 @@
-/* #projetos {
-  padding: 40px 0;
-} */
-
 .warpper-projetos {
-  /* overflow: hidden; */
   padding: 40px 0;
-  /* position: relative; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,13 +9,6 @@
   margin: 0;
 }
 
-/* .projetos{
-  display: flex;
-  gap: 90px; 
-  align-items: center;
-  justify-content: center; 
-  transform: translateX();
-} */
 .item {
   position: relative;
   flex-shrink: 0;
@@ -81,19 +68,6 @@
   color: white;
   text-transform: capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
