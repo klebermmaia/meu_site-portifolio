@@ -19,8 +19,6 @@ export default function initSettingsSwiper(){
       depth: 150,
       slideShadows: false,
     },
-    mousewheel: {
-      invert: false,
-    },
+    mousewheel: false,
   });
 }

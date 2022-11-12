@@ -2,21 +2,25 @@
   {
     "src":"imagens/projetos/animaisFantasticos.svg",
     "alt": "Logo1 do projeto Animais Fantasticos.",
-    "cor": "#FFF8EF"
+    "cor": "#FFF8EF",
+    "skills": ["html", "css", "js", "grid layout", "git", "layout responsivo", "front-end",1]
   },
   {
     "src":"imagens/projetos/bikcraft.svg",
     "alt": "Logo2 do projeto Bikcraft.",
-    "cor": "#FEC63E"
+    "cor": "#FEC63E",
+    "skills": ["html", "css", "js", "grid layout", "git", "layout responsivo", "front-end",2]
   },
   {
     "src":"imagens/projetos/caravan.svg",
     "alt": "Logo3 do projeto Caravan.",
-    "cor": "#FFFFFF"
+    "cor": "#FFFFFF",
+    "skills": ["html", "css", "js", "grid layout", "git", "layout responsivo", "front-end",3]
   },
   {
     "src":"imagens/projetos/move&life.svg",
     "alt": "Logo4 do projeto Move & Life.",
-    "cor": "#000000"
+    "cor": "#000000",
+    "skills": ["html", "css", "js", "grid layout", "git", "layout responsivo", "front-end",4]
   }
 ]
