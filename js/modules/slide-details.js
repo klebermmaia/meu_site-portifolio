@@ -1,6 +1,6 @@
 export default async function initSlidedDetails() {
   const boxPrejetos = document.querySelector('.projetos');
-  const dadosProjetos = await fetch('../../projetos.json')
+  const dadosProjetos = await fetch('./../../projetos.json')
   const projetosJSON = await dadosProjetos.json();
 
   for (let i = 0; i < projetosJSON.length; i++) {

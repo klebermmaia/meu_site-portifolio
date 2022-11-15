@@ -1,0 +1,54 @@
+.formacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #090915;
+  padding: 120px;
+  margin-top: 80px;
+}
+.formacao-titulo{
+  grid-area: 1;
+}
+.intro-formacao{
+  color: #A3A3A3;
+}
+.cursos ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cursos ul li{
+  display: flex;
+   justify-content: space-between;
+}
+.formacoes > div:not(:last-child):after{
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  display: block;
+  margin: 15px 0;
+}
+.titulos-formacao{
+  margin-bottom: 15px;
+}
+/* Tipografia */
+.formacao > * > *{
+  font-family: 'Fira Sans';
+  color: #ffffff;
+}
+.formacao a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.formacao-titulo h1{
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: #151A28;
+  text-align: center;
+}
+.titulos-formacao h3{
+  color: #8F8F8F;
+  font-size: 1rem;
+}
