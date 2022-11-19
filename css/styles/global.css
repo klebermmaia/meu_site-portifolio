@@ -4,8 +4,8 @@ img{
 body{
   min-height: 100vh;
   position: relative;
-  background-image: linear-gradient(to bottom, #00000e 45%,
-  #000314f0);
+  background-image: linear-gradient(to bottom, #000017 35%,
+  #1f304f);
 }
 body::before{
   content: '';
