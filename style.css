@@ -11,6 +11,17 @@
 
 @import url(css/styles/navbar.css);
 
+
+/* FORMAÇÂO */
+@media (max-width: 1024px){
+  .formacao{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .br{
+    display: none;
+  }
+}
 /* ORBITA */
 @media (max-width: 500px) {
   .orb-lg {
