@@ -16,18 +16,28 @@
   margin-bottom: 60px;
 }
 
-.cursos ul {
+.lista-cursos span{
+  position: relative;
+  right: 50px;
+}
+
+.avanco li{
+  position: relative;
+  left: 35px;
+}
+
+.lista-cursos {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.cursos ul li {
+.lista-cursos li {
   display: flex;
   justify-content: space-between;
 }
 
-.formacoes>div:not(:last-child):after {
+.formacoes > div:not(:last-child):after {
   content: '';
   height: 1px;
   width: 100%;
@@ -70,6 +80,7 @@
 }
 .skills ul{
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .skills ul li{
@@ -94,9 +105,9 @@
 .formacao-titulo h1 {
   font-weight: 800;
   letter-spacing: 5px;
-  font-size: 8rem;
+  font-size: 10rem;
   text-transform: uppercase;
-  color: #2C303B;
+  color: #151A28;
   text-align: center;
 }
 
@@ -107,4 +118,31 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0;
+}
+@media (max-width: 1000px){
+  .formacao-titulo h1{
+    font-size: 8rem;
+  }
+}
+@media (max-width: 835px){
+  .formacao-titulo h1{
+    font-size: 6rem;
+  }
+}
+@media (max-width: 760px){
+  .formacao{
+    padding: 120px 0;
+    justify-items: center;
+  }
+  .formacao > div{
+    padding: 0 60px;
+  }
+  .formacao-titulo h1{
+    font-size: 4rem;
+  }
+}
+@media (max-width: 320px){
+  .formacao-titulo h1{
+    font-size: 2rem;
+  }
 }
